@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/budgetingPage.css"/>
+    <title>Budget!</title>
+</head>
+<body>
+    <div class="mainFrame">
+        <div class="topValuesSection">
+            <div class="netMonthly">
+                <h3>Income Monthly: $1000</h3>
+            </div>
+            <div class="totalDebt">
+                <h3>Debt Remaining: $1000</h3>
+            </div>
+        </div>
+        <div class="description">
+            <p>Insert your monthly expenditures in the boxes below, and calculate how much money you spend total. Then, alter the inputs and see how much you could save in certain categories by spending less on what you may not need!</p>
+        </div>
+        <div class="inputsSection">
+            <div class="tabs">
+                <div class="tabSelector" id="homeTab">Home</div>
+                <div class="tabSelector" id="familyTab">Family</div>
+                <div class="tabSelector" id="transportationTab">Transportation</div>
+                <div class="tabSelector" id="recreationTab">Recreation</div>
+                <div class="tabSelector" id="otherTab">Other</div>
+
+            </div>
+            <div class="inputs" id="homeInputs">
+                <h4 class="inputHeader">Mortgage</h4>
+                <input type="text" class="inputBox" id="mortgageOld"></input>
+                <input type="text" class="inputBox" id="mortgageNew"></input>
+
+                <h4 class="inputHeader">Rent</h4>
+                <input type="text" class="inputBox" id="rentOld"></input>
+                <input type="text" class="inputBox" id="rentNew"></input>
+
+                <h4 class="inputHeader">Utilities</h4>
+                <input type="text" class="inputBox" id="utilitiesOld"></input>
+                <input type="text" class="inputBox" id="utilitiesNew"></input>
+
+                <h4 class="inputHeader">Home Insurance</h4>
+                <input type="text" class="inputBox" id="homeInsuranceOld"></input>
+                <input type="text" class="inputBox" id="homeInsuranceNew"></input>
+
+                <h4 class="inputHeader">Other Home Expenses</h4>
+                <input type="text" class="inputBox" id="otherHomeOld"></input>
+                <input type="text" class="inputBox" id="otherHomeNew"></input>
+
+                
+            </div>
+            <div class="inputs" id="familyInputs">
+                <h4 class="inputHeader">Groceries:</h4>
+                <input type="text" class="inputBox" id="groceriesOld"></input>
+                <input type="text" class="inputBox" id="groceriesNew"></input>
+
+                <h4 class="inputHeader">Medical Insurance:</h4>
+                <input type="text" class="inputBox" id="medicalInsuranceOld"></input>
+                <input type="text" class="inputBox" id="medicalInsuranceNew"></input>
+
+                <h4 class="inputHeader">Clothing:</h4>
+                <input type="text" class="inputBox" id="clothingOld"></input>
+                <input type="text" class="inputBox" id="clothingNew"></input>
+
+                <h4 class="inputHeader">Hygiene:</h4>
+                <input type="text" class="inputBox" id="hygieneOld"></input>
+                <input type="text" class="inputBox" id="hygieneNew"></input>
+
+                <h4 class="inputHeader">Other Family Expenses:</h4>
+                <input type="text" class="inputBox" id="otherFamilyOld"></input>
+                <input type="text" class="inputBox" id="otherFamilyNew"></input>
+
+            </div>
+            <div class="inputs" id="transportationInputs">
+                <h4 class="inputHeader">Car Payment:</h4>
+                <input type="text" class="inputBox" id="carPaymentOld"></input>
+                <input type="text" class="inputBox" id="carPaymentNew"></input>
+
+                <h4 class="inputHeader">Car Insurance:</h4>
+                <input type="text" class="inputBox" id="carInsuranceOld"></input>
+                <input type="text" class="inputBox" id="carInsuranceNew"></input>
+
+                <h4 class="inputHeader">Fuel:</h4>
+                <input type="text" class="inputBox" id="fuelOld"></input>
+                <input type="text" class="inputBox" id="fuelNew"></input>
+
+                <h4 class="inputHeader">Public Transit:</h4>
+                <input type="text" class="inputBox" id="publicTransitOld"></input>
+                <input type="text" class="inputBox" id="publicTransitNew"></input>
+
+                <h4 class="inputHeader">Other Expenses:</h4>
+                <input type="text" class="inputBox" id="OtherTransitOld"></input>
+                <input type="text" class="inputBox" id="OtherTransitNew"></input>
+
+            </div>
+            <div class="inputs" id="commodityInputs">
+                <h4 class="inputHeader">Gifts:</h4>
+                <input type="text" class="inputBox" id="giftsOld"></input>
+                <input type="text" class="inputBox" id="giftsNew"></input>
+
+                <h4 class="inputHeader">Traveling:</h4>
+                <input type="text" class="inputBox" id="travelingOld"></input>
+                <input type="text" class="inputBox" id="travelingNew"></input>
+
+                <h4 class="inputHeader">Restaurants:</h4>
+                <input type="text" class="inputBox" id="restaurantOld"></input>
+                <input type="text" class="inputBox" id="restaurantNew"></input>
+
+                <h4 class="inputHeader">Other Commodities:</h4>
+                <input type="text" class="inputBox" id="otherComOld"></input>
+                <input type="text" class="inputBox" id="otherComNew"></input>
+
+            </div>
+            <div class="inputs" id="otherInputs">
+                <h4 class="inputHeader">Credit Card Debt:</h4>
+                <input type="text" class="inputBox" id="creditCardOld"></input>
+                <input type="text" class="inputBox" id="creditCardNew"></input>
+
+                <h4 class="inputHeader">Student Debt:</h4>
+                <input type="text" class="inputBox" id="studentLoanOld"></input>
+                <input type="text" class="inputBox" id="studentLoanNew"></input>
+
+                <h4 class="inputHeader">Bank Debt:</h4>
+                <input type="text" class="inputBox" id="bankLoanOld"></input>
+                <input type="text" class="inputBox" id="bankLoanNew"></input>
+
+                <h4 class="inputHeader">Other Debt:</h4>
+                <input type="text" class="inputBox" id="otherDebtOld"></input>
+                <input type="text" class="inputBox" id="otherDebtNew"></input>
+            </div>
+        </div>
+        <div class="summarySection">
+            <h3>You now have $28803498 to play with each month! How about paying off some of that debt...</h3>
+        </div>
+    </div>
+</body>
+</html>

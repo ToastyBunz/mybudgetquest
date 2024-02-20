@@ -113,8 +113,37 @@ input:focus {
     display: none;
 }
 
-.questsFlex {
-    padding-bottom: 50px;
+.questTileDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.questTile {
+    height: 400px;
+    width: 150px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: grid;
+    justify-content: center;
+}
+
+.questTileImage {
+    box-sizing: border-box;
+    height: 500px;
+    width: 250px;
+    margin-top: -3rem;
+    position: relative;
+    transition: all 0.25s;
+}
+
+.questTileImage:hover {
+    transform: scale(1.1);
 }
 
 .arrowIcon {
