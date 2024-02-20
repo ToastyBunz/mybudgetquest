@@ -1,0 +1,30 @@
+body {
+    background-color: darkgrey;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.mainFrame {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.anotherQuest {
+    height: 40px;
+    width: 200px;
+    background-color: lightblue;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+
+    font-size: 16px;
+}
+
+.anotherQuest:hover {
+    cursor: pointer;
+}

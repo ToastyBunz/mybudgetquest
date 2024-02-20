@@ -1,0 +1,54 @@
+body {
+    display: grid;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    background-color: darkgrey;
+
+    font-family: sans-serif;
+
+}
+
+.mainFrame {
+    width: 100%;
+    max-width: 1300px;
+    display: grid;
+
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.topSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+
+.chart {
+    width: 200px;
+    height: 200px;
+}
+
+.storyDownload {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-self: center;
+    justify-content: space-between;
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+.bottomButton {
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    padding: 10px 20px;
+    width: fit-content;
+
+    justify-self: center;
+}
+

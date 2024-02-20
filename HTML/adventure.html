@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/CSS/adventure.css" rel="stylesheet"/>
+    <script src="/JavaScript/adventure.js"></script>
+    <title>Adventure Time! (C'mon, grab your friends!)</title>
+</head>
+<body>
+    <div class="mainFrame">
+        <h1>Adventure!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            <input type="text" class="inputBox" id="input1"> 
+            <svg class="infoIcon" data-tooltip="text" id="info1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+            Excepturi, vitae non tempore omnis eius est illo rem et, alias sed fugit ea maxime veniam nostrum odit deleniti. Quo, consectetur rerum.</p>
+            
+    <a class="valuesButton" id="adventureValuesShow" href="#">Show Values</a>
+
+            <h2>Quests:</h2>
+        <div class="questsFlex">
+            <button class="quest" id="quest1">Quest 1</button>
+            <button class="quest" id="quest1">Quest 2</button>
+            <button class="quest" id="quest1">Quest 3</button>
+        </div>
+
+        <div class="intermissionDiv">
+            <h2>Intermission</h2>
+            <a href="#">Next</a>
+        </div>
+    </div>
+    <div class="mainFrame2">
+        <h1>Adventure!</h1>
+        <h2>Expenses:</h2>
+        <p>Fill in the values to determine your total expenses</p>
+        <div class="valuesContainer">
+            <p>Housing</p>
+            <input type="text" class="inputBox" id="housingInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Groceries</p>
+            <input type="text" class="inputBox" id="groceriesInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Medical</p>
+            <input type="text" class="inputBox" id="medicalInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Clothing</p>
+            <input type="text" class="inputBox" id="clothingInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Transportation (car payment, fuel, insurance, etc.)</p>
+            <input type="text" class="inputBox" id="carInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Personal (hygiene, beauty, etc.)</p>
+            <input type="text" class="inputBox" id="personalInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Pets</p>
+            <input type="text" class="inputBox" id="petsInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Travel</p>
+            <input type="text" class="inputBox" id="travelInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Utilities</p>
+            <input type="text" class="inputBox" id="utilitiesInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Debt</p>
+            <input type="text" class="inputBox" id="debtInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Fun</p>
+            <input type="text" class="inputBox" id="funInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Gifts</p>
+            <input type="text" class="inputBox" id="giftsInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Commodities</p>
+            <input type="text" class="inputBox" id="funInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Other</p>
+            <input type="text" class="inputBox" id="otherInput"> 
+        </div>
+
+        <h2 class="incomeHeader">Income:</h2>
+        <p>Fill in your Income</p>
+        
+        <div class="incomeGrid yourIncome">
+            <h4>Your Income:</h4>
+        <div class="valuesContainer">
+            <p>Work Income</p>
+            <input type="text" class="inputBox" id="workInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Work Bonuses</p>
+            <input type="text" class="inputBox" id="bonusInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Assets (Stock Options, etc.)</p>
+            <input type="text" class="inputBox" id="assetsInput"> 
+        </div>
+    </div>
+        <div class="incomeGrid spouseIncome">
+        <h4>Your Spouse/Partner's Income:</h4>
+        <div class="valuesContainer">
+            <p>Work Income</p>
+            <input type="text" class="inputBox" id="workInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Work Bonuses</p>
+            <input type="text" class="inputBox" id="bonusInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Assets (Stock Options, etc.)</p>
+            <input type="text" class="inputBox" id="assetsInput"> 
+        </div>
+    </div>
+
+    <div class="incomeGrid otherIncome">
+        <h4>Other income you make</h4>
+        <div class="valuesContainer">
+            <p>Real Estate Income (rental houses, etc.)</p>
+            <input type="text" class="inputBox" id="workInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Work Bonuses</p>
+            <input type="text" class="inputBox" id="bonusInput"> 
+        </div>
+        <div class="valuesContainer">
+            <p>Assets (Stock Options, etc.)</p>
+            <input type="text" class="inputBox" id="assetsInput"> 
+        </div>
+    </div>
+
+        <a class="valuesButton" id="adventureValuesHide" href="#">Hide Values</a>
+
+        <h2>Quests:</h2>
+
+        <div class="questsFlex">
+            <button class="quest" id="valuesQuest1">Quest 1</button>
+            <button class="quest" id="valuesQuest2">Quest 2</button>
+            <button class="quest" id="valuesQuest3">Quest 3</button>
+        </div>
+    </div>
+    <svg class="arrowIcon" id="rightArrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+    <svg class="arrowIcon" id="leftArrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+</body>
+</html>
